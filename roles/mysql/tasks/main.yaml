@@ -9,18 +9,19 @@
   package:
     name: mysql-server
     state: present
-- name: Install boto3 and botocore
-      pip:
-        name:
-          - boto3
-          - botocore
-        executable: pip3
-        state: present    
+    
 - name: start and enable mysql server
   service:
     state: started
     enabled: yes
     name: mysqld
+- name: Install boto3 and botocore
+  pip:
+    name:
+      - boto3
+      - botocore
+    executable: pip3
+    state: present
 - name: setup root password
   #command: mysql_secure_installation --set-root-pass "{{ MYSQL_ROOT_PASSWORD }}"
   command: mysql_secure_installation --set-root-pass "{{ root_password.mysql_root_password }}"
