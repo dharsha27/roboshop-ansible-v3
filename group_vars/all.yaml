@@ -11,14 +11,14 @@
 # PAYMENT_HOST: payment-{{ dev }}.devopspractice.online
 
 
-MONGODB_HOST: mongodb-{{ environment }}.devopspractice.online
-REDIS_HOST: redis-{{ environment }}.devopspractice.online
-CATALOGUE_HOST: catalogue-backend-alb-{{ environment }}.devopspractice.online
-CART_HOST: cart-{{ environment }}.devopspractice.online
-MYSQL_HOST: mysql-{{ environment }}.devopspractice.online
-USER_HOST: user-{{ environment }}.devopspractice.online
-RABBITMQ_HOST: rabbitmq-{{ environment }}.devopspractice.online
-SHIPPING_HOST: shipping-{{ environment }}.devopspractice.online
-PAYMENT_HOST: payment-{{ environment }}.devopspractice.online
+MONGODB_HOST: mongodb-{{ env }}.devopspractice.online
+REDIS_HOST: redis-{{ env }}.devopspractice.online
+CATALOGUE_HOST: catalogue-backend-alb-{{ env }}.devopspractice.online
+CART_HOST: cart-{{ env }}.devopspractice.online
+MYSQL_HOST: mysql-{{ env }}.devopspractice.online
+USER_HOST: user-{{ env }}.devopspractice.online
+RABBITMQ_HOST: rabbitmq-{{ env }}.devopspractice.online
+SHIPPING_HOST: shipping-{{ env }}.devopspractice.online
+PAYMENT_HOST: payment-{{ env }}.devopspractice.online
 
 
