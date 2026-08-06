@@ -1,14 +1,24 @@
 # ansible_user: ec2-user
 # ansible_password: DevOps321
+# MONGODB_HOST: mongodb-{{ dev }}.devopspractice.online
+# REDIS_HOST: redis-{{ dev }}.devopspractice.online
+# CATALOGUE_HOST: catalogue-{{ dev }}.devopspractice.online
+# CART_HOST: cart-{{ dev }}.devopspractice.online
+# MYSQL_HOST: mysql-{{ dev }}.devopspractice.online
+# USER_HOST: user-{{ dev }}.devopspractice.online
+# RABBITMQ_HOST: rabbitmq-{{ dev }}.devopspractice.online
+# SHIPPING_HOST: shipping-{{ dev }}.devopspractice.online
+# PAYMENT_HOST: payment-{{ dev }}.devopspractice.online
+
+
 MONGODB_HOST: mongodb-{{ dev }}.devopspractice.online
 REDIS_HOST: redis-{{ dev }}.devopspractice.online
-CATALOGUE_HOST: catalogue-{{ dev }}.devopspractice.online
+CATALOGUE_HOST: catalogue-backend-alb-{{ dev }}.devopspractice.online
 CART_HOST: cart-{{ dev }}.devopspractice.online
 MYSQL_HOST: mysql-{{ dev }}.devopspractice.online
 USER_HOST: user-{{ dev }}.devopspractice.online
 RABBITMQ_HOST: rabbitmq-{{ dev }}.devopspractice.online
 SHIPPING_HOST: shipping-{{ dev }}.devopspractice.online
 PAYMENT_HOST: payment-{{ dev }}.devopspractice.online
-
 
 
