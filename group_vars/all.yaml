@@ -13,7 +13,7 @@
 
 MONGODB_HOST: mongodb-{{ env }}.devopspractice.online
 REDIS_HOST: redis-{{ env }}.devopspractice.online
-CATALOGUE_HOST: catalogue-backend-alb-{{ env }}.devopspractice.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devopspractice.online
 CART_HOST: cart-{{ env }}.devopspractice.online
 MYSQL_HOST: mysql-{{ env }}.devopspractice.online
 USER_HOST: user-{{ env }}.devopspractice.online
