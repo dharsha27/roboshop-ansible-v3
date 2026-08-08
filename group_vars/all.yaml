@@ -13,12 +13,12 @@
 
 MONGODB_HOST: mongodb-{{ env }}.devopspractice.online
 REDIS_HOST: redis-{{ env }}.devopspractice.online
+MYSQL_HOST: mysql-{{ env }}.devopspractice.online 
+RABBITMQ_HOST: rabbitmq-{{ env }}.devopspractice.online 
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devopspractice.online
-CART_HOST: cart-{{ env }}.devopspractice.online
-MYSQL_HOST: mysql-{{ env }}.devopspractice.online
-USER_HOST: user-{{ env }}.devopspractice.online
-RABBITMQ_HOST: rabbitmq-{{ env }}.devopspractice.online
-SHIPPING_HOST: shipping-{{ env }}.devopspractice.online
-PAYMENT_HOST: payment-{{ env }}.devopspractice.online
+USER_HOST: user.backend-alb-{{ env }}.devopspractice.online
+CART_HOST: cart.backend-alb-{{ env }}.devopspractice.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.devopspractice.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.devopspractice.online
 
 
